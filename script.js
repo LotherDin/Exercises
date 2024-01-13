@@ -3,6 +3,6 @@ const btn = document.getElementById("btn")
 let container = document.getElementById("container");
 
 function changeColor() {
-    testo.style.backgroundColor = "red"
+    testo.style.color = "red"
 }
 btn.addEventListener("click", changeColor)
