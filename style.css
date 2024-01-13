@@ -11,6 +11,12 @@ h1{
     align-items: flex-start;
     justify-content: space-around
 }
+h2{
+    visibility: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around
+}
 #btn{
    margin-left: 350px;
    margin-top: 150px;
