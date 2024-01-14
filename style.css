@@ -22,3 +22,10 @@ h2{
    margin-top: 150px;
 
 }
+#inputDiv{
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+    margin-top: 60px;
+    margin-left: 25px;
+}

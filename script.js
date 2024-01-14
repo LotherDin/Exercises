@@ -4,6 +4,13 @@ let container = document.getElementById("container");
 const testo2 = document.getElementById("testo2");
 let visibile = "hidden";
 let colore = "";
+let inputNuovo = document.getElementById("input1")
+let btnInput = document.getElementById("btnInput");
+
+
+
+
+
 
 function changeColor() {
     if (colore == "") {
@@ -30,5 +37,12 @@ function compare() {
     }
 
 }
+
+
+btnInput.addEventListener("click", function () {
+    const newTesto = inputNuovo.value;
+    testo.textContent = newTesto
+});
+
 btn.addEventListener("click", changeColor)
 btn.addEventListener("click", compare)
